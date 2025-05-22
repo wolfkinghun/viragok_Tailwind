@@ -11,8 +11,8 @@ export const Home = () => {
    
     <div className='flex flex-col sm:flex-row '>
     
-     <div className='w-[50%] bg h-screen p-10 flex flex-col justify-center content-center items-center '>
-        <div className='flex flex-col items-center gap-2 w-[35%] ml-[50%] '>
+     <div className='w-full sm:w-[50%] bg h-screen p-10 flex flex-col justify-center content-center items-center '>
+        <div className='flex flex-col items-center gap-2 sm:w-[35%] sm:ml-[50%] '>
           <h1 className='font-extrabold text-purple-900 text-5xl '>Természet <br/>kézi könyve</h1>
           <h4 className='p-2 text-purple-800'>Fedezd fel a növényeket, gyümölcsök és fűszerek világát!</h4>
           <div className='w-[90%]'> 
@@ -21,7 +21,7 @@ export const Home = () => {
          
         </div>
      </div>
-     <div className='w-[50%] bg2 h-screen p-10 flex flex-col justify-center items-center'>
+     <div className='w-full sm:w-[50%] bg2 h-screen p-10 flex flex-col justify-center items-center'>
         <Categories/>
      </div>
     </div>
